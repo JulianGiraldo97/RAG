@@ -2,6 +2,13 @@
 
 Este sistema implementa un RAG (Retrieval Augmented Generation) para procesar y responder preguntas sobre información financiera de la empresa.
 
+## Formatos de Archivo Soportados
+
+El sistema puede procesar los siguientes formatos de archivo:
+- **PDF**: Documentos financieros, reportes, estados financieros
+- **JSON**: Datos estructurados, configuraciones, métricas financieras
+- **CSV**: Datos tabulares, hojas de cálculo, registros financieros
+
 ## Arquitectura del Sistema
 
 El sistema está compuesto por tres componentes principales:
@@ -68,7 +75,7 @@ HUGGINGFACE_API_KEY=tu_api_key_aqui
 
 ```
 .
-├── data/                  # PDFs con información financiera
+├── data/                  # Archivos con información financiera (PDF, JSON, CSV)
 ├── domain_knowledge/      # Documentos de conocimiento del dominio
 ├── src/                   # Código fuente
 │   ├── __init__.py
@@ -99,8 +106,9 @@ HUGGINGFACE_API_KEY=tu_api_key_aqui
 ## Características Técnicas
 
 - **Procesamiento de Documentos**:
+  - Soporte para múltiples formatos (PDF, JSON, CSV)
   - División inteligente de texto
-  - Manejo de múltiples PDFs
+  - Manejo de datos estructurados y no estructurados
   - Preservación de contexto
 
 - **Búsqueda Semántica**:

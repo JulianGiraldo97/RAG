@@ -1,0 +1,17 @@
+{
+  "title": "Estados Financieros Adaptados al Sector Agrícola",
+  "entries": [
+    {
+      "statement": "Balance General",
+      "notes": "Debe incluir activos biológicos, tierras agrícolas, maquinaria, cuentas por cobrar, y pasivos financieros a corto y largo plazo."
+    },
+    {
+      "statement": "Estado de Resultados",
+      "notes": "Incluye ingresos por venta de productos agrícolas, costos de producción, y utilidades netas por campaña."
+    },
+    {
+      "statement": "Flujo de Caja",
+      "notes": "Separar flujos por actividades: operativas (ventas), inversión (compra de maquinaria), y financiación (créditos, subsidios)."
+    }
+  ]
+}

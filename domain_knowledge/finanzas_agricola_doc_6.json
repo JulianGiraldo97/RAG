@@ -1,0 +1,21 @@
+{
+  "title": "Buenas Prácticas Financieras para Empresas Agrícolas",
+  "entries": [
+    {
+      "practice": "Tener registros contables diarios",
+      "benefit": "Facilita auditorías, acceso a créditos y toma de decisiones."
+    },
+    {
+      "practice": "Diversificar fuentes de ingreso",
+      "benefit": "Disminuye la dependencia de un solo cultivo o mercado."
+    },
+    {
+      "practice": "Evaluar constantemente los KPIs",
+      "benefit": "Permite corregir desviaciones a tiempo."
+    },
+    {
+      "practice": "Integrar software de gestión",
+      "benefit": "Mejora el control del flujo de efectivo, inventarios y presupuestos."
+    }
+  ]
+}

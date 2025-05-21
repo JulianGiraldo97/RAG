@@ -1,0 +1,165 @@
+{
+  "domain": "Finanzas en el sector agrícola",
+  "sections": [
+    {
+      "title": "Conceptos Básicos",
+      "entries": [
+        {
+          "term": "Activo",
+          "definition": "Recurso controlado por una entidad del que se espera obtener beneficios económicos futuros."
+        },
+        {
+          "term": "Pasivo",
+          "definition": "Obligación presente de la entidad, surgida de eventos pasados, que se espera cancelar mediante salida de recursos."
+        },
+        {
+          "term": "Capital",
+          "definition": "Diferencia entre los activos y los pasivos de una empresa."
+        },
+        {
+          "term": "Ingresos",
+          "definition": "Incremento en los beneficios económicos durante el periodo contable."
+        },
+        {
+          "term": "Gastos",
+          "definition": "Disminuciones en los beneficios económicos durante el periodo contable."
+        }
+      ]
+    },
+    {
+      "title": "Áreas Funcionales de Finanzas",
+      "entries": [
+        {
+          "area": "Contabilidad Financiera",
+          "description": "Registro y reporte de transacciones económicas. Estados financieros: Balance General, Estado de Resultados, Flujo de Caja."
+        },
+        {
+          "area": "Contabilidad de Costos",
+          "description": "Costeo directo e indirecto, sistemas como costeo basado en actividades (ABC), aplicado a cultivos y producción agrícola."
+        },
+        {
+          "area": "Finanzas Corporativas",
+          "description": "Evaluación de proyectos agrícolas mediante VPN y TIR, gestión del capital y análisis de riesgo."
+        },
+        {
+          "area": "Tesorería",
+          "description": "Gestión del flujo de caja estacional, conciliaciones bancarias, planificación de pagos para cosechas."
+        },
+        {
+          "area": "Presupuestos",
+          "description": "Planificación de costos de producción agrícola, fertilizantes, mano de obra y maquinaria."
+        },
+        {
+          "area": "Auditoría Interna",
+          "description": "Evaluación de controles en la cadena productiva, seguimiento de subsidios y ayudas estatales."
+        }
+      ]
+    },
+    {
+      "title": "Procesos Financieros Típicos",
+      "entries": [
+        {
+          "process": "Planificación de cultivos",
+          "description": "Cálculo de costos anticipados, proyecciones de ingreso, planificación de inversiones."
+        },
+        {
+          "process": "Ciclo de egresos",
+          "description": "Compras de insumos agrícolas, contratación de servicios y pagos de jornales."
+        },
+        {
+          "process": "Control de inventario",
+          "description": "Seguimiento del stock de semillas, fertilizantes y pesticidas."
+        },
+        {
+          "process": "Cierre contable agrícola",
+          "description": "Reconocimiento de ingresos por ciclo de cosecha, depreciación de maquinaria agrícola."
+        }
+      ]
+    },
+    {
+      "title": "Indicadores Financieros Clave (KPIs)",
+      "entries": [
+        {
+          "indicator": "Costo por hectárea",
+          "description": "Costo total dividido por número de hectáreas sembradas."
+        },
+        {
+          "indicator": "Rentabilidad agrícola",
+          "description": "Ingresos netos por unidad de superficie."
+        },
+        {
+          "indicator": "Rotación de inventario",
+          "description": "Frecuencia con que se renuevan los insumos agrícolas durante la campaña."
+        },
+        {
+          "indicator": "Índice de endeudamiento",
+          "description": "Nivel de deuda en relación con el capital propio del productor."
+        }
+      ]
+    },
+    {
+      "title": "Normativas y Marco Legal",
+      "entries": [
+        {
+          "norm": "Subsidios agrícolas",
+          "description": "Regulación sobre ayudas estatales y programas de financiamiento para productores."
+        },
+        {
+          "norm": "Regímenes fiscales rurales",
+          "description": "Tratamientos tributarios especiales aplicables a productores agropecuarios."
+        },
+        {
+          "norm": "Normas IFRS",
+          "description": "Aplicación de normas internacionales de contabilidad al sector agrícola (ej: IAS 41 para activos biológicos)."
+        }
+      ]
+    },
+    {
+      "title": "Sistemas y Herramientas",
+      "entries": [
+        {
+          "tool": "Sistemas ERP Agrícolas",
+          "description": "Softwares como AgroERP, FarmLogs, o Agworld para gestión contable y productiva."
+        },
+        {
+          "tool": "Excel y Power BI",
+          "description": "Herramientas de análisis financiero agrícola para presupuestos, KPIs y proyecciones."
+        }
+      ]
+    },
+    {
+      "title": "Glosario",
+      "entries": [
+        {
+          "term": "Capital de trabajo agrícola",
+          "definition": "Fondos disponibles para cubrir operaciones diarias del ciclo agrícola."
+        },
+        {
+          "term": "Activo biológico",
+          "definition": "Plantas o animales vivos que generan ingresos futuros (ej: ganado, cultivos permanentes)."
+        },
+        {
+          "term": "Subsidio",
+          "definition": "Ayuda económica otorgada por el Estado para fomentar la producción agrícola."
+        }
+      ]
+    },
+    {
+      "title": "FAQs Financieras en Agricultura",
+      "entries": [
+        {
+          "question": "¿Qué es el costeo agrícola?",
+          "answer": "Método de cálculo del costo total de producción de un cultivo o unidad ganadera."
+        },
+        {
+          "question": "¿Cómo se calcula la rentabilidad de una cosecha?",
+          "answer": "Ingresos totales menos costos directos e indirectos, dividido por la inversión inicial."
+        },
+        {
+          "question": "¿Qué registros financieros son clave para una finca?",
+          "answer": "Gastos de insumos, pagos de jornales, ingresos por ventas, depreciación de maquinaria."
+        }
+      ]
+    }
+  ]
+}

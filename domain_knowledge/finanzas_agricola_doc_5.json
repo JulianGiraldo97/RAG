@@ -1,0 +1,21 @@
+{
+  "title": "Riesgos Financieros en Agricultura",
+  "entries": [
+    {
+      "risk": "Climático",
+      "impact": "Pérdida de producción por lluvias extremas, sequías o heladas."
+    },
+    {
+      "risk": "Volatilidad de Precios",
+      "impact": "Cambios abruptos en el precio de productos o insumos."
+    },
+    {
+      "risk": "Tipo de Cambio",
+      "impact": "Variaciones que afectan importación de insumos o exportación de productos."
+    },
+    {
+      "risk": "Riesgo de Crédito",
+      "impact": "Incumplimiento en pagos de parte de compradores o distribuidores."
+    }
+  ]
+}

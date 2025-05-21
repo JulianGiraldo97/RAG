@@ -1,0 +1,21 @@
+{
+  "title": "Instrumentos Financieros Usados en Agricultura",
+  "entries": [
+    {
+      "instrument": "Líneas de Crédito Agrícolas",
+      "description": "Préstamos de corto y largo plazo para financiar ciclos de cultivo."
+    },
+    {
+      "instrument": "Subvenciones Gubernamentales",
+      "description": "Fondos no reembolsables para innovación o mejora de infraestructura agrícola."
+    },
+    {
+      "instrument": "Leasing de Maquinaria",
+      "description": "Arrendamiento de equipos agrícolas para mejorar productividad sin alta inversión inicial."
+    },
+    {
+      "instrument": "Seguros Agrícolas",
+      "description": "Coberturas ante riesgos climáticos, plagas, o pérdida de cultivos."
+    }
+  ]
+}

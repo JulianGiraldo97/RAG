@@ -1,0 +1,21 @@
+{
+  "title": "Ciclo Financiero de una Campaña Agrícola",
+  "entries": [
+    {
+      "stage": "Planeación Financiera",
+      "details": "Proyecciones de ingresos y costos, análisis de rentabilidad."
+    },
+    {
+      "stage": "Obtención de Financiamiento",
+      "details": "Acceso a créditos, subsidios o alianzas para inversión inicial."
+    },
+    {
+      "stage": "Gestión de Ingresos y Egresos",
+      "details": "Registro diario de compras, pagos y cobros durante la campaña."
+    },
+    {
+      "stage": "Cierre y Evaluación",
+      "details": "Análisis de resultados reales vs. proyectados, revisión de KPIs financieros y productivos."
+    }
+  ]
+}

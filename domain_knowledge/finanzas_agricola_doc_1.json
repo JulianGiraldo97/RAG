@@ -1,0 +1,21 @@
+{
+  "title": "Estructura de Costos Agrícolas",
+  "entries": [
+    {
+      "component": "Costos Directos",
+      "description": "Costos asociados directamente a la producción como semillas, fertilizantes, pesticidas, agua y mano de obra directa."
+    },
+    {
+      "component": "Costos Indirectos",
+      "description": "Costos generales como depreciación de maquinaria, servicios públicos, transporte, seguros y administración."
+    },
+    {
+      "component": "Costos Variables",
+      "description": "Cambian según el volumen de producción, por ejemplo, combustible o jornales por hora."
+    },
+    {
+      "component": "Costos Fijos",
+      "description": "No varían con el volumen producido, como alquiler de tierras o sueldos administrativos."
+    }
+  ]
+}
