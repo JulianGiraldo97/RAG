@@ -53,11 +53,22 @@ El sistema está compuesto por tres componentes principales:
 ## Instalación
 
 1. Clonar el repositorio
-2. Instalar dependencias:
+2. Crear un entorno virtual
+```bash
+python3 -m venv venv
+```
+3. Activar el entorno virtual
+```bash
+# En macOS/Linux:
+source venv/bin/activate
+# En Windows:
+# venv\Scripts\activate
+```
+4. Instalar dependencias:
 ```bash
 pip install -r requirements.txt
 ```
-3. Crear un archivo `.env` en la raíz del proyecto con las siguientes variables:
+5. Crear un archivo `.env` en la raíz del proyecto con las siguientes variables:
 ```
 OPENAI_API_KEY=tu_api_key_aqui
 # o
