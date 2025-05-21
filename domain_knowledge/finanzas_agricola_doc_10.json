@@ -1,0 +1,21 @@
+{
+  "title": "Fuentes de Financiamiento para Empresas Agrícolas",
+  "entries": [
+    {
+      "fuente": "Créditos Bancarios",
+      "características": "Interés anual del 10-18%, plazos de hasta 5 años."
+    },
+    {
+      "fuente": "Fondos Gubernamentales",
+      "características": "Subsidios y créditos con tasas preferenciales."
+    },
+    {
+      "fuente": "Cooperativas Agrarias",
+      "características": "Microcréditos con enfoque local y apoyo técnico."
+    },
+    {
+      "fuente": "Inversionistas Privados",
+      "características": "Capital de riesgo a cambio de participación en utilidades."
+    }
+  ]
+}

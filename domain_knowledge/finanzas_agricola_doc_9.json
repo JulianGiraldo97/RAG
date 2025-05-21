@@ -1,0 +1,30 @@
+{
+  "title": "Ejemplo de Reporte Contable Agrícola",
+  "entries": [
+    {
+      "cuenta": "Ventas de Productos Agrícolas",
+      "valor": 15000,
+      "tipo": "Ingreso"
+    },
+    {
+      "cuenta": "Fertilizantes",
+      "valor": 2000,
+      "tipo": "Gasto"
+    },
+    {
+      "cuenta": "Sueldos de Trabajadores",
+      "valor": 3500,
+      "tipo": "Gasto"
+    },
+    {
+      "cuenta": "Alquiler de Maquinaria",
+      "valor": 1000,
+      "tipo": "Gasto"
+    },
+    {
+      "cuenta": "Utilidad Neta",
+      "valor": 8500,
+      "tipo": "Resultado"
+    }
+  ]
+}

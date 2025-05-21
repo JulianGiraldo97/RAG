@@ -1,0 +1,25 @@
+{
+  "title": "Indicadores Financieros Clave (KPIs) en Agricultura",
+  "entries": [
+    {
+      "kpi": "Margen Bruto",
+      "formula": "(Ingresos - Costos Directos) / Ingresos",
+      "usage": "Evalúa la eficiencia de producción agrícola."
+    },
+    {
+      "kpi": "Rentabilidad por Hectárea",
+      "formula": "Ganancia Neta / Hectáreas Cultivadas",
+      "usage": "Mide la rentabilidad por unidad de terreno."
+    },
+    {
+      "kpi": "Índice de Liquidez",
+      "formula": "Activos Corrientes / Pasivos Corrientes",
+      "usage": "Determina la capacidad de cubrir obligaciones a corto plazo."
+    },
+    {
+      "kpi": "Retorno sobre el Capital (ROE)",
+      "formula": "Utilidad Neta / Patrimonio",
+      "usage": "Evalúa la rentabilidad para los accionistas."
+    }
+  ]
+}

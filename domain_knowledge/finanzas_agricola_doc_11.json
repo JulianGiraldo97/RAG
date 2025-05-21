@@ -1,0 +1,25 @@
+{
+  "title": "Plan de Presupuesto Agrícola Anual",
+  "entries": [
+    {
+      "rubro": "Semillas y Fertilizantes",
+      "presupuesto": 4000
+    },
+    {
+      "rubro": "Sueldos y Jornales",
+      "presupuesto": 6000
+    },
+    {
+      "rubro": "Maquinaria y Mantenimiento",
+      "presupuesto": 3000
+    },
+    {
+      "rubro": "Transporte y Comercialización",
+      "presupuesto": 2500
+    },
+    {
+      "rubro": "Reserva para Contingencias",
+      "presupuesto": 1500
+    }
+  ]
+}

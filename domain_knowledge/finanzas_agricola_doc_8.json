@@ -1,0 +1,35 @@
+{
+  "title": "Simulación de Flujo de Caja Agrícola",
+  "entries": [
+    {
+      "mes": "Enero",
+      "ingresos": 0,
+      "egresos": 3000,
+      "actividad": "Compra de semillas y preparación del terreno"
+    },
+    {
+      "mes": "Febrero",
+      "ingresos": 0,
+      "egresos": 2000,
+      "actividad": "Siembra y fertilización"
+    },
+    {
+      "mes": "Marzo",
+      "ingresos": 0,
+      "egresos": 1500,
+      "actividad": "Riego y control de plagas"
+    },
+    {
+      "mes": "Abril",
+      "ingresos": 0,
+      "egresos": 1200,
+      "actividad": "Mantenimiento del cultivo"
+    },
+    {
+      "mes": "Mayo",
+      "ingresos": 10000,
+      "egresos": 1000,
+      "actividad": "Cosecha y venta"
+    }
+  ]
+}
