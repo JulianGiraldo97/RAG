@@ -26,7 +26,7 @@ class VectorStore:
 
     def load_vector_store(self, directory: str):
         """Carga un vector store desde disco."""
-        self.vector_store = FAISS.load_local(directory, self.embeddings)
+        self.vector_store = FAISS.load_local(directory, self.embeddings, allow_dangerous_deserialization=True)
 
     def similarity_search(self, query: str, k: int = 4) -> List[Document]:
         """Realiza una búsqueda por similitud."""

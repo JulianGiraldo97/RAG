@@ -1,18 +1,17 @@
 import os
 from dotenv import load_dotenv
-from rag_system import RAGSystem
+from src.rag_system import RAGSystem
 
 def main():
     # Cargar variables de entorno
     load_dotenv()
     
     # Verificar API key
-    if not os.getenv("OPENAI_API_KEY") and not os.getenv("HUGGINGFACE_API_KEY"):
-        raise ValueError("Se requiere una API key de OpenAI o HuggingFace")
+    if not os.getenv("OPENAI_API_KEY"):
+        raise ValueError("Se requiere una API key de OpenAI")
     
-    # Inicializar sistema RAG
-    use_openai = bool(os.getenv("OPENAI_API_KEY"))
-    rag = RAGSystem(use_openai=use_openai)
+    # Inicializar sistema RAG con OpenAI
+    rag = RAGSystem(use_openai=True)
     
     # Directorios
     data_dir = "data"

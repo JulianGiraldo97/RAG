@@ -1,12 +1,12 @@
 from typing import List
 from langchain.schema import Document
 from langchain_openai import ChatOpenAI
-from langchain_community.llms import HuggingFaceHub
+from langchain_huggingface import HuggingFaceEndpoint
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnablePassthrough
 from langchain.schema.output_parser import StrOutputParser
-from .document_processor import DocumentProcessor
-from .vector_store import VectorStore
+from src.document_processor import DocumentProcessor
+from src.vector_store import VectorStore
 
 class RAGSystem:
     def __init__(self, use_openai: bool = True):
@@ -16,24 +16,33 @@ class RAGSystem:
         if use_openai:
             self.llm = ChatOpenAI(
                 model_name="gpt-3.5-turbo",
-                temperature=0
+                temperature=0.3,
+                max_tokens=500,
+                request_timeout=30
             )
         else:
-            self.llm = HuggingFaceHub(
-                repo_id="google/flan-t5-large",
-                model_kwargs={"temperature": 0.5, "max_length": 512}
+            self.llm = HuggingFaceEndpoint(
+                repo_id="google/flan-ul2",
+                temperature=0.7,
+                max_new_tokens=512
             )
 
-        # Template para el prompt
-        template = """Eres un asistente financiero experto. Usa la siguiente información para responder la pregunta.
-        Si no sabes la respuesta, di que no tienes suficiente información.
+        # Template para el prompt optimizado
+        template = """Eres un asistente financiero especializado en finanzas agrícolas.
+        Responde la pregunta de manera concisa y práctica usando SOLO la información del contexto.
+        
+        Reglas:
+        1. Usa SOLO la información del contexto
+        2. Si el contexto no es suficiente, indícalo brevemente
+        3. Sé conciso pero informativo
+        4. Enfócate en puntos clave y soluciones prácticas
 
-        Información del contexto:
+        Contexto:
         {context}
 
         Pregunta: {question}
 
-        Respuesta:"""
+        Respuesta concisa:"""
 
         self.prompt = ChatPromptTemplate.from_template(template)
 
